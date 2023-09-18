@@ -1,0 +1,220 @@
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.top
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.top a{
+    color: black;
+    font-family:'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top span{
+    color: black;
+    font-family:'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: black;
+    font-family:'Manrope', sans-serif;
+    font-weight: 800;
+    font-size:  100px; 
+    font-style: bold;
+    /* padding-left: 180px; */
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+h2{
+    color: black;
+    font-family:'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: bold;
+    /* padding-left: 180px; */
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhatsApp {    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.Email {    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.Email:single-button{
+   clip-path:url(mariagutz.leal@gmail.com) ;
+}
+.Linkedin {    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.Instagram {    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.tittles a {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin: 40px;
+    position: static;
+
+}
+
+.tittles
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui{
+    margin: 25px;
+    padding: 17px;
+    width: 155.498px;
+    height: 133.664px;
+    background-image: url(Eclipse/Ui.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease ease0.1s;
+}
+
+.ui:hover{
+    position: relative;
+    background-image: url(Eclipse/Eclipse.svg);
+    width: 155.498px;
+    height: 133.664px;
+    margin: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.art{ 
+    padding: 10px;
+    margin: 25px;    
+    width: 155.498px;
+    height: 133.664px;
+    text-align: center;
+    background-image: url(Eclipse/Art.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease 0.1s
+}
+
+.art:hover{
+    background-image: url(Eclipse/Eclipse.svg);
+    width: 155.498px;
+    height: 133.664px;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.event{
+    margin: 25px;
+    padding: 10px;
+    width: 206.78px;
+    height: 133.664px;
+    background-image: url(Eclipse/Events.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease 0.1s;
+}
+
+.event:hover{
+    background-image: url(Eclipse/Eclipse.svg);
+    width: 206.78px;
+    height: 133.664px;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.marketing{
+    margin: 25px;
+    padding: 10px;
+    width: 186.56px;
+    height: 133.664px;
+    background-image: url(Eclipse/mkt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease 0.1s;
+}
+
+.marketing:hover{
+    background-image: url(Eclipse/Eclipse.svg);
+    width: 186.56px;
+    height: 133.664px;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: all 0.2s ease 0.1s;
+}
